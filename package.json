@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://alanvibez.github.io/React-MUI-ReduxToolkit-TodoList/",
+  "homepage": "https://alanvibez.github.io/React-MUI-ReduxToolkit-TodoList",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
