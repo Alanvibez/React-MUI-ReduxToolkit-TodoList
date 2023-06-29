@@ -1,5 +1,5 @@
 import { MenuItem, Select, SelectChangeEvent, TextField } from '@mui/material';
-import { ChangeEvent, FC, useState } from 'react';
+import { ChangeEvent, FC } from 'react';
 
 interface ToDoFilterProps {
   setFilter: (filter: { sort: string; query: string }) => void;
