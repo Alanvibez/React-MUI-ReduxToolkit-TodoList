@@ -46,7 +46,7 @@ export const ToDoItem: React.FC<ToDoItemProps> = ({
   };
 
   return (
-    <div className="rounded bg-slate-600 p-5 flex gap-5 items-center my-3">
+    <div className="rounded bg-slate-600 p-5 flex gap-5 items-center">
       <div className="flex items-center flex-1">
         {!isEdit ? (
           <>

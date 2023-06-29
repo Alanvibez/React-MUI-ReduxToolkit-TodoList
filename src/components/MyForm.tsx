@@ -27,7 +27,7 @@ export const MyForm: React.FC<MyFormProps> = ({ onSubmit }) => {
   return (
     <form className="flex gap-2" action="" onSubmit={handleSubmit}>
       <TextField
-        className="w-2/3"
+        className="w-full bg-white"
         id="filled-basic"
         label="Добавить задачу..."
         variant="filled"
@@ -35,7 +35,7 @@ export const MyForm: React.FC<MyFormProps> = ({ onSubmit }) => {
         onChange={(e) => setValue(e.target.value)}
       />
       <Button
-        className="w-1/3"
+        className="w-[100px]"
         type="submit"
         variant="contained"
         color="success"
