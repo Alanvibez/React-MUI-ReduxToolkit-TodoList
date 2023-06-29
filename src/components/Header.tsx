@@ -14,6 +14,7 @@ export const Header: FC<HeaderProps> = ({ burger, open }) => {
       <IconButton color="primary" onClick={burger}>
         {open ? <CloseIcon /> : <MenuIcon />}
       </IconButton>
+      <div>123</div>
     </header>
   );
 };
